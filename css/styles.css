@@ -1,0 +1,47 @@
+.title
+{
+    text-align: center;
+    color: #1C1C1C;
+    font-family: GiangSinh;
+    font-size: 60px;
+    margin: auto;
+}
+body
+{
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX29401697.jpg");
+}
+.ten
+{
+    height: 200px;
+    width:1000px;
+    background-color: #DAA520;
+    border-radius: 20px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+button
+{
+    background-color: Firebrick;
+    color: black;
+    padding: 20px 50px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: GiangSinh;
+    font-weight: bold;
+
+
+}
+.buttons{
+   margin: auto;
+}
+.Lbutton
+{
+    display: flex;
+}
+@font-face { font-family: GiangSinh; src: url('WavingatChristmas.ttf'); } 
+a{
+    color: black;
+}

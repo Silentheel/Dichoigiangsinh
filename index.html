@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Đi chơi với tớ nhá :3 </title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+            .snow-container{position:fixed;width:100%;max-width:100%;z-index:99999;pointer-events:none;overflow:hidden;top:0;height:100%}
+            .snow{display:block;position:absolute;z-index:2;top:0;right:0;bottom:0;left:0;pointer-events:none;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);-webkit-animation:snow linear infinite;animation:snow linear infinite}
+            .snow.foreground{background-image:url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png");-webkit-animation-duration:15s;animation-duration:10s}
+            .snow.foreground.layered{-webkit-animation-delay:7.5s;animation-delay:7.5s}
+            .snow.middleground{background-image:url(https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png);-webkit-animation-duration:20s;animation-duration:15s}
+            .snow.middleground.layered{-webkit-animation-delay:10s;animation-delay:10s}
+            .snow.background{background-image:url(https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png);-webkit-animation-duration:25s;animation-duration:20s}
+            .snow.background.layered{-webkit-animation-delay:12.5s;animation-delay:12.5s}
+            @-webkit-keyframes snow{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{-webkit-transform:translate3d(5%,100%,0);transform:translate3d(5%,100%,0)}}
+            @keyframes snow{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{-webkit-transform:translate3d(5%,100%,0);transform:translate3d(5%,100%,0)}}
+            </style>
+    </head>
+    <body>
+        <div class="ten">
+            <h1 class="title"> Would you like to go out with me in the Chirstmas Day ❤️️ </h1>
+        </div>
+        <div class="Lbutton">
+            <div class="buttons">
+            <button type="button"> <a href="https://silentheel.github.io/Fromthongtin/"> YES </a> </button>
+         </div>
+         <div class="buttons">
+            <button type="button" id="button"> <a href="#"> NO </a> </button>
+         </div>
+        </div>
+    <audio src="./css/nhacgiangsinhcucmanh.mp3" type="audio/mp3" autoplay loop> 
+
+    </audio>
+        <div class='snow-container'>
+        <div class='snow foreground'></div>
+        <div class='snow foreground layered'></div>
+        <div class='snow middleground'></div>
+        <div class='snow middleground layered'></div>
+        <div class='snow background'></div>
+        <div class='snow background layered'></div>
+        </div>
+    <script language="javascript">
+        var button = document.getElementById("button");
+        button.onclick = function(){
+            var a = Math.floor(Math.random() * 4);
+            {
+                if (a == 0)
+                {
+                    alert("CẬU SUY NGHĨ LẠI ĐI MÀ 😢💔");
+                }else if (a == 1)
+                {
+                    alert("CẬU KHÔNG MUỐN ĐI CHƠI VỚI TỚ ĐẾN VẬY HẢ 💔");
+                }else if (a == 2)
+                {
+                    alert("CHO CẬU SUY NGHĨ LẠI ĐÓ 💔");
+                }
+                else if (a == 3)
+                {
+                    alert("ĐI CHƠI VỚI TỚ VUI LẮM CHỌN LẠI ĐI 💔");
+                }
+
+            }
+
+        }
+    </script>
+        
+        
+        
+    </body>
+</html>
